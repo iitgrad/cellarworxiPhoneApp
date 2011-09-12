@@ -1,0 +1,40 @@
+9
+
+dir
+219
+https://dompdf.googlecode.com/svn/trunk/dompdf/lib/ttf2ufm/ttf2ufm-src/app
+https://dompdf.googlecode.com/svn
+
+
+
+2009-10-16T22:05:12.510078Z
+184
+eclecticgeek@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8e70de24-3a84-11de-b438-597f59cd7555
+
+RPM
+dir
+
+TeX
+dir
+
+X11
+dir
+
+netscape
+dir
+

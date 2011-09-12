@@ -1,0 +1,18 @@
+html, body { color: Darkred;
+    border-color: burgundy;
+    background-color: #efedd9;
+	margin: 0;
+	padding: 0
+}
+a:link { color: navy; text-decoration: none }
+a:visited { color: navy; text-decoration: none}
+a:active { color: navy;}
+a:hover { color: navy; text-decoration: underline;}
+
+.Column {
+	width: 320px;
+	float: none;
+	border-style: solid;
+	text-transform: capitalize;
+	font: bold 12px "Lucida Grande", Lucida, Verdana, sans-serif;
+}

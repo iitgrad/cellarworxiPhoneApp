@@ -1,0 +1,57 @@
+<html>
+
+
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="../site.css">
+
+    <script language="JavaScript" type="text/javascript">
+
+    function add()
+
+    {
+
+    	document.form1.result.value=(parseFloat(document.form1.numerator.value)/(parseFloat(document.form1.ph2.value)-
+
+    	parseFloat(document.form1.ph1.value)))*2*10;
+
+    }
+
+  </script>
+
+  <title>New Page 1</title>
+
+</head>
+
+
+
+<body>
+
+
+
+<form method="POST" name=form1 action="../../_derived/nortbots.htm" webbot-action="--WEBBOT-SELF--" onSubmit="location.href='../../_derived/nortbots.htm';return false;" webbot-onSubmit>
+
+  <!--webbot bot="SaveResults" u-file="L:\crushpublic\crushclient\_private\form_results.csv" s-format="TEXT/CSV" s-label-fields="TRUE" startspan --><strong>[FrontPage Save Results Component]</strong><!--webbot bot="SaveResults" i-checksum="6561" endspan --><p>
+
+<table width=200 align=center><tr><td align=center>BUFFER CAPACITY</td></tr>
+
+<tr><td align=center><input type="text" name="numerator" size="5"><hr></td></tr>
+
+<tr><td align=center><input type="text" name="ph2" size="5">-<input type="text" name="ph1" size="5"><input type=button value=CALC onClick="add();"></td></tr> 
+
+<tr><td align=center>BUFFER CAPACITY:<input type="text" name="result" size="5" >mM/L</td></tr>
+
+<tr><td></td></tr>
+
+<tr><td align=center>
+
+</form>
+
+
+
+</body>
+
+
+
+</html>

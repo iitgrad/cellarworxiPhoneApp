@@ -1,0 +1,240 @@
+<html>
+
+
+
+<head>
+
+  <title></title>
+
+  <link rel="stylesheet" type="text/css" href="../site.css">
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+ <!--     Begin the DHTML Calendar      -->
+
+    <script language="JavaScript" src="../bigcalendar/dhtmlcal.js"></script>
+
+    <script language="JavaScript" >
+
+dcEvent( 1, 1, null, null, "New Years Day", null, "#336633", "#ccffcc", 1 );
+
+dcEvent( 2, 14, null, null, "Saint Valentines Day", null, "#663333", "#ffcccc", 1 );
+
+dcEvent( 3, 17, null, null, "Saint Patricks Day", null, "#336633", "#ccffcc", 1 );
+
+dcEvent( 7, 4, null, null, "Fourth of July", null, "#003366", "#99ccff", 1 );
+
+dcEvent( 10, 31, null, null, "Halloween night", null, "#000000", "#ffa000", 1 );
+
+dcEvent( 12, 25, null, null, "Christmas Day", null, "#663333", "#ffcccc", 1 );
+
+
+
+dcEvent( null, 1, null, null, "First Day of the Month", null, null, null, 1 );
+
+dcEvent( null, 2, null, null, "Second Day of the Month", null, null, null, 1 );
+
+dcEvent( null, 3, null, null, "Third Day of the Month", null, null, null, 1 );
+
+	
+
+dcEvent( null, 5, null, null, "<center><img src='images/earth.gif' border=0><br>Image (earth)</center>", "cafaq.asp#section7", null, null, 1 );
+
+dcEvent( null, 6, null, null, "<center><img src='images/monitor.gif' border=0><br>Image (monitor)</center>", "cafaq.asp#section7", null, null, 1 );
+
+dcEvent( null, 7, null, null, "<center><img src='images/wrench.gif' border=0><br>Image (wrench)</center>", "cafaq.asp#section7", null, null, 1 );
+
+	
+
+dcEvent( null, 9, null, null, "Pop-up window event example", "cafaq.asp#section8", null, null, 1 );
+
+dcEvent( null, 10, null, null, "Pop-up window event example", "cafaq.asp#section8", null, null, 1 );
+
+dcEvent( null, 11, null, null, "Pop-up window event example", "cafaq.asp#section8", null, null, 1 );
+
+
+
+dcEvent( null, 13, null, null, "Each event uses Every Month feature", "cafaq.asp#section13", null, null, 1 );
+
+dcEvent( null, 14, null, null, "Each event uses Every Month feature", "cafaq.asp#section13", null, null, 1 );
+
+dcEvent( null, 15, null, null, "Each event uses Every Month feature", "cafaq.asp#section13", null, null, 1 );
+
+	
+
+dcEvent( null, 17, null, null, "<center><font size=4>HTML tags</font> example</center>", null, null, null, 1 );
+
+dcEvent( null, 18, null, null, "<center><font size=4>HTML tags</font> example</center>", null, null, null, 1 );
+
+dcEvent( null, 19, null, null, "<center><font size=4>HTML tags</font> example</center>", null, null, null, 1 );
+
+	
+
+dcEvent( null, 21, null, null, "Purchase the calendar", "capurch.asp", null, null, 1 );
+
+dcEvent( null, 22, null, null, "Purchase the calendar", "capurch.asp", null, null, 1 );
+
+dcEvent( null, 23, null, null, "Purchase the calendar", "capurch.asp", null, null, 1 );
+
+	
+
+dcEvent( null, 25, null, null, "<a href='cafaq.asp'>hyperlink</a> example", null, null, null, 1 );
+
+dcEvent( null, 26, null, null, "<a href='cafaq.asp'>hyperlink</a> example", null, null, null, 1 );
+
+	
+
+dcEvent( null, 28, null, null, "Custom color event example", "cafaq.asp#section1", "#663333", "#ffcccc", 1 );
+
+dcEvent( null, 29, null, null, "Custom color event example", null, "#336633", "#ccffcc", 1 );
+
+	
+
+dcEvent( null, null, null, "tuesday", "Weekday example", "cafaq.asp#section5", "#000000", "#99ccff", 1 );
+
+</script>	
+
+
+
+
+
+    <script language="JavaScript">
+
+	// the argument needs to be the object name
+
+	// example: var x = new Calendar("x");
+
+    	var cal = new Calendar("cal");
+
+
+
+	//cal.initialMonth	= 0;  // 0=January; 1=February...
+
+	//cal.initialYear	= 2002;
+
+
+
+	cal.slotCount = 1; // number of slots 
+
+
+
+	cal.monthStartDate = new Array(1,1,1, 1,1,1, 1,1,1, 1,1,1);
+
+	cal.longDays = new Array("Mon", "Tue", "Wed", "Thu", "Fri", "Sat","Sun" );
+
+	cal.longMonths   = new Array( "January", "February", "March", "April",
+
+	 		"May", "June", "July", "August", 
+
+			"September", "October", "November", "December" );
+
+
+
+	cal.beginMonday		= true;  // begin week with Sun or Mon
+
+	cal.displayDeadText 	= false;  // display prev/ next month events
+
+	cal.displayDeadNumber 	= false;  // display prev/ next month days
+
+	cal.displayMonthCombo 	= true;   // display month selector
+
+	cal.displayYearCombo 	= true;   // display year selector
+
+	cal.dateBreak 		= true;   // cause a break after displaying the date
+
+	cal.bottomHeading 	= false;  // display weekday names at the bottom of calendar
+
+	cal.todayText 		= "-TODAY-";  // text to appear in the current date
+
+	cal.trackSelectedDate	= false;
+
+
+
+	cal.cellWidth  = 90;		 // width of date cells 
+
+	cal.cellHeight = 90;  		 // height of date cells 
+
+	cal.borderWidth = 1;		 // width of the date cell borders (in pixels)
+
+
+
+	cal.clrBorder	= "#800000";	// border color of calendar
+
+	cal.clrCellText	= "#800000";	// event text color
+
+	cal.clrDead	= "#c0c0c0";	// background color- unused this month
+
+	cal.clrFuture	= "#ffffff";	// background color- future dates
+
+	cal.clrHdrBg	= "#c04040";	// header background color (mon, tues...)   
+
+	cal.clrHdrText	= "#ffffff";	// header text color
+
+	cal.clrNow	= "#ffffc0";	// background color- the current date
+
+	cal.clrPast	= "#e0e0e0";	// background color- previous dates
+
+	cal.clrWeekend	= "#f0f0ff";	// background color- weekend dates
+
+
+
+	var szFont = "Tahoma, Tahoma, Tahoma, Sans Serif";
+
+	cal.hdrFace	= szFont;
+
+	cal.hdrSize	= "2";
+
+	cal.numFace	= szFont;
+
+	cal.numSize	= "3";
+
+	cal.cellFace	= szFont;
+
+	cal.cellSize	= "2";
+
+
+
+	cal.createDateSelect();
+
+    </script>
+
+
+
+    <div id="MSIE" name="MSIE">
+
+    <ilayer id="NSALIGN" name="NSALIGN">
+
+    <layer id="NSLAYER" name="NSLAYER">
+
+
+
+    <script language="JavaScript">
+
+    	cal.createCalendar();
+
+    </script>
+
+
+
+    </layer></ilayer></div>
+
+    <!--     End of DHTML Calendar       -->
+
+
+
+
+
+</body>
+
+
+
+</html>
+

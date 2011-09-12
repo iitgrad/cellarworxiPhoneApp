@@ -1,0 +1,120 @@
+9
+
+dir
+219
+https://dompdf.googlecode.com/svn/trunk/dompdf/lib/ttf2ufm/ttf2ufm-src/encodings
+https://dompdf.googlecode.com/svn
+
+
+
+2008-03-12T06:35:46.000000Z
+96
+benjcarson
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8e70de24-3a84-11de-b438-597f59cd7555
+
+README
+file
+
+
+
+
+2010-03-11T22:18:09.000000Z
+d0ccc5d569cc81a1198839cbf5cd56f3
+2008-03-12T06:35:46.000000Z
+96
+benjcarson
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1787
+
+README.html
+file
+
+
+
+
+2010-03-11T22:18:06.000000Z
+81bca04962d31b4d35f9c0c1af2ab359
+2008-03-12T06:35:46.000000Z
+96
+benjcarson
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2090
+
+adobestd
+dir
+
+bulgarian
+dir
+
+cyrillic
+dir
+
+latin1
+dir
+
+latin2
+dir
+
+latin4
+dir
+
+latin5
+dir
+
+russian
+dir
+

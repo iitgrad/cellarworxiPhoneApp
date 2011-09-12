@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<database>
+	<path>localhost:8888</path>
+	<username>root</username>
+	<password>root</password>
+	<name>ccctest</name>
+</database>

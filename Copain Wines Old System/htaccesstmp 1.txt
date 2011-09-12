@@ -1,0 +1,10 @@
+AuthUserFile "/var/www/html/crushpublic/crushclient/htpasswd.txt"
+
+AuthGroupFile "/var/www/html/crushpublic/crushclient/htgroups.txt"
+
+AuthName EnterPassword
+
+AuthType Basic
+
+require group staff clients
+
